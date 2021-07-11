@@ -1,0 +1,63 @@
+.gallary-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+}
+.gallary-section .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.gallary-section .row .item-container{
+  
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+
+}
+.gallary-section .row .item-container:hover{
+    box-shadow:  1px 1px 1px 1px rgba(112, 112, 112, 0.609);
+}
+.gallary-section .row .item-container .item{
+    display: inline-block;
+    width: 100;
+    height: auto;
+    
+    overflow: hidden;
+}
+.gallary-section .row .item-container .item img{
+    width: 100%;
+    transition: all .5s;
+}
+.gallary-section .row .item-container .item-caption{
+  
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:5px 15px;
+}
+.gallary-section .row .item-container .item h3{
+   padding-top: 5px;
+}
+.gallary-section .row .item-container .item p{
+    padding: 5px auto;
+ }
+.gallary-section .row .item-container .item .btn-gallary{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    color: rgba(112, 112, 112, 0.609);
+    
+}
+
+.gallary-section .row .item-container .item:hover img{
+    transform: scale(1.1,1.1);
+    opacity: .5;
+}

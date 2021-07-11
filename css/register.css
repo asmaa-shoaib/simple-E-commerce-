@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+body{
+  height: 663px;
+    background:url(../images/16.jpg) repeat scroll center center / cover;
+}
+.over-lay{
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.index-container{
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 69%;
+    margin: auto;
+    border-radius: 15px;
+    padding:30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.index-container h2{
+    color: rgb(144, 144, 144);
+    
+}
+
+form {
+    
+    height: 85%;
+    width: 90%;
+    
+}
+form .form-group{
+   
+    height: 16%;
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+form .form-group .label{
+    text-align: left;
+    color: rgb(144, 144, 144) ;
+    width: 30%;
+}
+form .form-group .input{
+    text-align: left;
+    padding: 8px ;
+    border-radius: 5px;
+    border-color: rgb(144, 144, 144) ;
+    outline: rgb(144, 144, 144) ;
+    width: 70%;
+} 
+form .btn{
+    padding: 10px 35px;
+    border-radius: 5px;  
+    border-color: transparent;
+    margin-top: 20px;
+    background-color: rgb(226, 126, 126);
+    transition: all .5s;
+
+}
+@media (min-width:992px){
+    form {  
+        width: 70%;
+    }
+    form .form-group .label{
+        width: 20%;
+    }
+    form .form-group .input{
+        width: 80%;
+    }
+}
+@media(min-width:572px) and (max-width:992px){
+    .btn-div button{
+        padding: 10px 25.2px;
+ 
+    } 
+    .btn-div{
+        width: 60%;
+    }  
+}
+@media (max-width:572px){
+    .index-container{
+        width: 80%;
+        height: 50%; 
+    }
+    .btn-div{
+        width: 60%;
+        height: 45%;
+        display: flex;
+        flex-flow:column;
+        justify-content: space-between;
+     
+    }   
+}
+button:hover{
+    background-color: transparent;
+    border: 1px rgb(144, 144, 144) solid;
+}
+#note{
+    height: 25px;
+    color: rgb(226, 126, 126);
+}

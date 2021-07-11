@@ -1,0 +1,58 @@
+.cart-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 530px;
+}
+.cart-section .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+}
+.cart-section .row .cart-item-container{
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+}
+.cart-section .row .cart-item-container:hover{
+    box-shadow:  1px 1px 1px 1px rgba(112, 112, 112, 0.609);
+}
+.cart-section .row .cart-item-container .cart-item{
+    display: inline-block;
+    width: 100;
+    height: auto;
+    overflow: hidden;
+}
+.cart-section .row .cart-item-container .cart-item img{
+    width: 100%;
+    transition: all .5s;
+}
+.cart-section .row .cart-item-container .cart-item .cart-item-caption{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:5px 15px;
+}
+.cart-section .row .cart-item-container .cart-item .cart-item-caption h3{
+   padding-top: 5px;
+}
+.cart-section .row .cart-item-container .cart-item .cart-item-caption p{
+    padding: 5px auto;
+ }
+ .cart-section .row .cart-item-container .cart-item .cart-item-caption .btn-gallary{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    color: rgba(112, 112, 112, 0.609);
+    
+}
+
+.cart-section .row .cart-item-container .cart-item:hover img{
+    transform: scale(1.1,1.1);
+    opacity: .5;
+}

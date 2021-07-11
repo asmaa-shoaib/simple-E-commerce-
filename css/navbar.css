@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    text-transform: capitalize;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.nav-bar{
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 10px;
+}
+.brand a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-bar .div-nav-menu{
+    
+}
+.nav-bar .div-nav-menu .brand{
+    padding: 10px;
+    display: inline-block;
+   
+}
+.nav-bar .div-nav-menu .nav-menu{
+    
+    list-style:none;
+    float: right;
+
+}
+.nav-bar .div-nav-menu .nav-menu .nav-item {
+
+    text-transform: capitalize;
+    float: left;
+    margin: 10px;
+}
+.nav-bar .div-nav-menu .nav-menu .nav-item .nav-item-link{
+    
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(144, 144, 144);
+    
+}

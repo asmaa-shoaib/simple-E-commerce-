@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+  
+}
+#up-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(226, 126, 126);
+    display: none;
+}
+@supports    (-webkit-text-stroke: 1px black) {
+    .arrow{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+  }
+
+
+body{
+  
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header{
+    height: 665px;
+    background-color: turquoise;
+    background:url(../images/19.jpg) repeat scroll center center / cover;
+}
+.header .over-lay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header .over-lay .container{
+   
+    overflow: hidden;
+}
+.header .container-caption{
+  
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header .over-lay .header-caption{
+    width: 50%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    ;
+}
+
+

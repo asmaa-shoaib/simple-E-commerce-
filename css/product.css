@@ -1,0 +1,106 @@
+.row{
+    display: flex;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.row .row-item{
+    width: 45%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.row .row-item-caption{
+    width: 55%;
+}
+.row .row-item .product-img-div img{
+    width: 100%;
+}
+.row .row-item .product-caption-div{
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+   
+}
+.row .row-item .product-caption-div .productName{
+    font-size: 2rem;
+}
+
+.row .row-item .product-caption-div .product-descrption{
+  
+   padding: 20px;
+}
+.row .row-item .product-caption-div .div-btn{
+    display: flex;
+    flex-flow: row;
+ 
+    padding: 20px;
+  
+}
+.row .row-item .product-caption-div .div-btn button{
+   padding: 10px 25px;
+   margin: auto 15px auto 0;
+   border-radius: 10px;
+   border: 1px solid rgb(226, 126, 126) ;
+   background-color: rgb(226, 126, 126);
+}
+.row .row-item .product-caption-div .div-btn .btn-buy{
+    background-color:  rgb(226, 126, 126);
+    color: #fff;
+    transition: all .5s;
+}
+.row .row-item .product-caption-div .div-btn .btn-cart{
+    background-color: #fff ;
+    border: 1px solid rgb(226, 126, 126) ;
+    color:  rgb(226, 126, 126);
+    transition: all .5s;
+}
+.row .row-item .product-caption-div .div-btn .btn-buy:hover{
+    background-color: #fff ;
+    border: 1px solid rgb(226, 126, 126) ;
+    color:  rgb(226, 126, 126);
+}
+.row .row-item .product-caption-div .div-btn .btn-cart:hover{
+    
+
+    background-color:  rgb(226, 126, 126);
+    color: #fff;
+} 
+.over-count{
+    display: none;
+}
+
+.flex{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over-count .count{
+    background:rgba(112, 112, 112, 0.767);
+    padding: 20px;
+    width: 400px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.over-count .count form select{
+    border-radius: 10px;
+    width: 50px;
+    padding: 5px;
+
+}
+.over-count .count form select option{
+;
+}
+
+.over-count .count .btn{
+    border-radius: 10px;
+    border: transparent;
+    padding: 8px 12px;
+}

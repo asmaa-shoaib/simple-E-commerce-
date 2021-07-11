@@ -1,0 +1,55 @@
+
+.contact-section{
+    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.198);
+    background-image: url(../images/7.jpg);background-position: center;background-attachment: fixed;
+    height: 600px;
+    
+}
+.contact-section .over-lay{
+    padding-top: 50px;
+    background-color: rgba(200, 192, 192, 0.904);
+    height: 100%;
+}
+form {
+    bac kground: rgb(199, 26, 26);
+    height: 85%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+form .form-group{
+    back ground: rgb(20, 133, 141);
+    width: 80%;
+    height: 18%;
+    margin: 5px auto;
+    padding: 10px   ;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+form .form-group .label{
+    text-align: left;
+    color: rgb(75, 51, 51) ;
+    width: 80%;
+    backgro und-color: darkolivegreen;
+}
+form .form-group .form-control{
+    text-align: left;
+    padding: 8px ;
+    border-radius: 5px;
+    border-color: rgb(144, 144, 144) ;
+    outline: rgb(144, 144, 144) ;
+    width: 80%; 
+} 
+form .btn{
+    padding: 10px 35px;
+    border-radius: 5px;  
+    border-color: transparent;
+    margin-top: 20px;
+    background-color: rgb(226, 126, 126);
+    transition: all .5s;
+    
+
+}   
